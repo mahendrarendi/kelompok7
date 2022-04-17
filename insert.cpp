@@ -1,9 +1,12 @@
 #include <iostream>
 using namespace std;
-//p
+
+// fungsi main
 int main(){
-    //input nilai
+	
+    //deklarasi variabel
 	int y;
+	//input 
 	cout<<"Masukan Banyak Bilangan:";
 	cin>>y;
 	//proses sorting
@@ -13,7 +16,7 @@ int main(){
 		cin>>x[i];
 		cout<<endl;
 	}
-	//
+	// melakukan looping hasil proses sorting
 	for(int i=1; i<y; i++){
 		int key = x[i];
 		int j = i-1;
